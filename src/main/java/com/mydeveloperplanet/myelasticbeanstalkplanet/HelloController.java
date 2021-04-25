@@ -11,7 +11,8 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
-        String message = "Hello AWS Elastic Beanstalk!";
+    	String message = "Hello again AWS Continuous Delivery!";
+
         try {
             InetAddress ip = InetAddress.getLocalHost();
             message += " From host: " + ip;
